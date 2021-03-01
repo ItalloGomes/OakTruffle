@@ -6,14 +6,14 @@ tenham as melhores condições para o seu desenvolvimento.
 
 O grupo é composto por:
 
-Antonio Augusto Fonseca Monteiro – 01211006,
+Antonio Augusto Fonseca Monteiro – 01211006;
 
-Gabriel Agra de Oliveira         - 01211042,
+Gabriel Agra de Oliveira         - 01211042;
 
-Itallo David da Silva Gomes      – 01211062,
+Itallo David da Silva Gomes      – 01211062;
 
-Mateus Araujo Nascimento         - 01211091,
+Mateus Araujo Nascimento         - 01211091;
 
-Mateus Ferreira Andrade          - 01211092,
+Mateus Ferreira Andrade          - 01211092;
 
-Wesley Paternezi                 - 01211132
+Wesley Paternezi                 - 01211132;
