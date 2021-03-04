@@ -1,0 +1,18 @@
+create database login;
+
+use login;
+
+create table usuario (
+idUsuario int primary key auto_increment,
+nome varchar(80),
+dataNasc varchar(10),
+nacionalidade varchar(30),
+CEP varchar(20),
+telefone varchar(20),
+email varchar(100)
+);
+
+create table dados_recebidos (                                             
+Temperatura varchar (10),              
+Umidade varchar (10)
+); 
