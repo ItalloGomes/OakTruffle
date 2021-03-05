@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('../imgs/background_institucional.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundo_Logo{
+    height: 667px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#imgLogo{
+    height: 370px;
+    width: 370px;
+    margin-top: 200px;
+    margin-left: 37%;
+    align-items: center;
+}
+
+nav{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav_button{
+    margin-top: 30px;
+
+    height: 50px;
+    width: 150px;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+
+    border: none;
+}
+
+.nav_button:hover{
+    transition: 0.2s;
+    color: rgb(44, 83, 117);
+}
+
+#button_login{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+
+    height: 50px;
+    width: 60px;
+    
+    background-color: rgba(0, 0, 0, 0);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 22px;
+
+    border: 1px solid;
+    border-radius: 10px;
+}
