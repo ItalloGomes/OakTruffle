@@ -1,4 +1,4 @@
-*{
+* {
     height: 100%;
     width: 100%;
 
@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-body{
+body {
     height: 100%;
     width: 100%;
     background-image: url('../imgs/background_institucional.jpg');
@@ -14,7 +14,7 @@ body{
     background-size: cover;
 }
 
-.fundo_Logo{
+.fundo_Logo {
     height: 100%;
     width: 100%;
     background-color: black;
@@ -22,22 +22,22 @@ body{
     text-align: center;
 }
 
-#imgLogo{
+#imgLogo {
     height: 370px;
     width: 370px;
     margin-top: 250px;
 }
 
-nav{
+nav {
     position: absolute;
     margin-top: 40px;
     height: 100px;
     width: 100%;
-    
+
     text-align: center;
 }
 
-.nav_button{
+.nav_button {
     margin-top: 20px;
 
     height: 50px;
@@ -53,19 +53,19 @@ nav{
     border: none;
 }
 
-.nav_button:hover{
+.nav_button:hover {
     transition: 0.2s;
     color: rgb(44, 83, 117);
 }
 
-#button_login{
+#button_login {
     position: absolute;
     right: 20px;
     top: 10px;
 
     height: 50px;
     width: 60px;
-    
+
     background-color: rgba(0, 0, 0, 0);
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -75,3 +75,4 @@ nav{
     border: 1px solid;
     border-radius: 10px;
 }
+
