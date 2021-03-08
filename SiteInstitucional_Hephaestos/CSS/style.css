@@ -86,15 +86,14 @@ nav {
 }
 
 .div_equipe{
-    
+    display: flex;
     border: 12px solid;
     color: white;
-    width: 50px;
-    height: 50px;
-    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 150px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-
-    
   }
 
