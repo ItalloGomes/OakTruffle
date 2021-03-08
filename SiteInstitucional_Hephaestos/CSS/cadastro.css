@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url('../imgs/background_institucional.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.fundo_Logo{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.borda_cadastro {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 470px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.p_cadastro {
+    margin-left: 50px;
+    text-align: left;
+    font-size: 24px;
+    color: white;
+}
+
+.input {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.925);
+    font-size: 20px;
+    width: 350px;
+}
+
+.button_cadastro{
+    
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 22px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 113px;
+}
