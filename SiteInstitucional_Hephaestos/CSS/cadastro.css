@@ -108,13 +108,29 @@ input{
     width: 280px;
 
     float: left;
-    margin-right: 36px;
+    margin-right: 17px;
     margin-left: 36px;
+}
+
+.dataNasctoText{
+    position: absolute;
+
+    height: 8px;
+    width: auto;
+
+    top: 30%;
+    bottom: 0;
+    left: -20%;
+    right: 0;
+
+    color: white;
+
+    font-size: 12px;
 }
 
 #dataNascto{
     height: 40px;
-    width: 99px;
+    width: 120px;
 
     float: left;
     margin-right: 10px;
@@ -157,6 +173,8 @@ input{
     float: left;
     margin-right: 30px;
     margin-left: 38px;
+
+    margin-top: 15px;
 }
 
 #cep{
@@ -164,6 +182,8 @@ input{
     width: 125px;
 
     float: left;
+
+    margin-top: 15px;
 }
 
 #rua{
