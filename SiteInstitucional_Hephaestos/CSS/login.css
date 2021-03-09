@@ -1,14 +1,33 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
     height: 100%;
     width: 100%;
 
+    background-image: url('../imgs/background_institucional.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
     overflow: hidden;
 }
 
+.fundo_Logo{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+nav{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
 
 .borda_login {
     background-color: transparent;
