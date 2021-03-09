@@ -2,6 +2,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+}
+
 
 .borda_login {
     background-color: transparent;

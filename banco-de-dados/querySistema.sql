@@ -14,6 +14,7 @@ create table tbUsuario(
     	,cidade_usuario varchar(100)
     	,bairro_usuario varchar(100)
     	,logradouro_usuario varchar(100)
+	,numeroCasa_usuario varchar(100)
     	,acesso_usuario boolean
 );
 
