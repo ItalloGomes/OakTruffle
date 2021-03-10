@@ -54,11 +54,20 @@ nav {
     width: 150px;
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.80);
     font-size: 2em;
     text-decoration: none;
     border: none;
+    
+    
 }
+
+.nav_button_equipe:hover {
+    transition: 0.2s;
+    color: rgb(62, 89, 112);
+}
+
+
 
 .nav_button:hover {
     transition: 0.2s;
@@ -98,7 +107,7 @@ nav {
 
 .borda-cargo {
     background-color: Grey;
-    height: 50px;
+    height: 70px;
     width: 100%;
     margin-top: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -117,4 +126,3 @@ nav {
     width: 500px;
 
 }
-
