@@ -87,22 +87,23 @@ nav {
 .fundo_Logo {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.820);
     opacity: 0.8;
     text-align: center;
+    transition: 0.5s;
 }
 
 #imgLogo {
     height: 370px;
     width: 370px;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .sobreEmpresa1{
     position: absolute;
 
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
 
     top: 20%;
     bottom: 0;
@@ -111,6 +112,9 @@ nav {
 
     background-color: white;
 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    overflow: hidden;
     border-radius: 50%;
 }
 
