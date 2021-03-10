@@ -12,8 +12,7 @@ body {
     background-image: url('../imgs/background_institucional.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
-    opacity: 0;
+    opacity: 0.8;
     transition: 2s;
 }
 
