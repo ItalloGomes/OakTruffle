@@ -14,20 +14,6 @@ body {
     background-size: cover;
 }
 
-.fundo_Logo {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.8;
-    text-align: center;
-}
-
-#imgLogo {
-    height: 370px;
-    width: 370px;
-    margin-top: 250px;
-}
-
 nav {
     position: absolute;
     margin-top: 40px;
@@ -96,5 +82,35 @@ nav {
     
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
+
+.fundo_Logo {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#imgLogo {
+    height: 370px;
+    width: 370px;
+    margin-top: 250px;
+}
+
+.sobreEmpresa1{
+    position: absolute;
+
+    height: 300px;
+    width: 300px;
+
+    top: 20%;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+
+    background-color: white;
+
+    border-radius: 50%;
+}
 
