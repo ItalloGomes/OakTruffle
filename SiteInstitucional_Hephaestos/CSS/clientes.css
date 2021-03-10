@@ -15,8 +15,7 @@ body {
 .fundo_Logo {
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.80);
     text-align: center;
 }
 
@@ -25,7 +24,6 @@ nav {
     margin-top: 0px;
     height: 100px;
     width: 100%;
-
     text-align: center;
 }
 
