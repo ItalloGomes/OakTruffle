@@ -3,10 +3,19 @@
 <html>
 
 <head>
-	<title>Line Chart</title>
+	<title>Umidade</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 	<script src="http://www.chartjs.org/dist/2.7.1/Chart.js"></script>
 	<script src="http://www.chartjs.org/samples/latest/utils.js"></script>
+	<style>
+		body{
+		background-image: url('../imgs/background_institucional.jpg');
+		background-repeat: no-repeat;
+    	background-size: cover;
+		opacity: 0.8;
+		}
+	</style>
+
 	<style>
 		canvas {
 			-moz-user-select: none;
@@ -34,9 +43,9 @@
 			type: 'line',
 			data: {
 				datasets: [{
-					label: "Temperature x Time",
+					label: "Umidade x Time",
 					type: 'line',
-					backgroundColor: ['rgba(255,239,213, 0.5)'],
+					backgroundColor: ['rgba(131,111,255, 0.5)'],
 					borderColor: ['#836FFF'], 
 				}]
 			},
@@ -53,7 +62,7 @@
 					yAxes: [{
 						scaleLabel: {
 							display: true,
-							labelString: 'Temperature'
+							labelString: 'Umidade'
                         },
                         ticks: {
 							beginAtZero:true,
