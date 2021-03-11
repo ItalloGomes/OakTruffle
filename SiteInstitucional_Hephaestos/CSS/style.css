@@ -12,7 +12,7 @@ body {
     background-image: url('../imgs/background_institucional.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0;
     transition: 2s;
 }
 
@@ -139,8 +139,11 @@ nav {
 .conteudoBubble{
     width: 90%;
     height: 110px;
-    margin-top: 20px;
+
     margin-left: 10px;
+
+    color: black;
+
     text-align: justify;
     font-size: 16px;
     overflow: hidden;
@@ -149,12 +152,11 @@ nav {
 .sobreEmpresaMissao{
     position: absolute;
 
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 300px;
 
     top: 25%;
-    bottom: 0;
-    left: 76%;
+    left: 71%;
     right: 0;
 
     background-color: white;
@@ -164,32 +166,19 @@ nav {
     font-weight: bold;
 
     overflow: hidden;
-    border-radius: 50%;
-
-    transition: 0.5s;
-}
-
-.sobreEmpresaMissao:hover{
-    height: 210px;
-    width: 300px;
-
-    top: 18%;
-    left: 71%;
-
-    z-index: 10;
     border-radius: 10px;
+
     transition: 0.5s;
 }
 
 .sobreEmpresaVisao{
     position: absolute;
 
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 300px;
 
-    top: 50%;
-    bottom: 0;
-    left: 76%;
+    top: 47%;
+    left: 71%;
     right: 0;
 
     background-color: white;
@@ -199,32 +188,19 @@ nav {
     font-weight: bold;
 
     overflow: hidden;
-    border-radius: 50%;
-
-    transition: 0.5s;
-}
-
-.sobreEmpresaVisao:hover{
-    height: 210px;
-    width: 300px;
-
-    top: 43%;
-    left: 71%;
-
-    z-index: 10;
     border-radius: 10px;
+
     transition: 0.5s;
 }
 
 .sobreEmpresaValores{
     position: absolute;
 
-    height: 120px;
-    width: 120px;
+    height: 160px;
+    width: 300px;
 
-    top: 75%;
-    bottom: 0;
-    left: 76%;
+    top: 69%;
+    left: 71%;
     right: 0;
 
     background-color: white;
@@ -234,19 +210,7 @@ nav {
     font-weight: bold;
 
     overflow: hidden;
-    border-radius: 50%;
-
-    transition: 0.5s;
-}
-
-.sobreEmpresaValores:hover{
-    height: 210px;
-    width: 300px;
-
-    top: 67%;
-    left: 71%;
-
-    z-index: 10;
     border-radius: 10px;
+
     transition: 0.5s;
 }
