@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="shortcut icon" href="../imgs/logoBrancoEmpresa.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/produtos.css">
+
+
+
     <title>Bem vindo a Hephaestos!</title>
 </head>
+
 <body onload="aoCarregar()">
-    
+
     <section class="fundo_Logo">
         <nav>
             <a href="index.html"><button class="nav_button">Home</button></a>
@@ -18,22 +23,113 @@
             <a href="equipe.html"><button class="nav_button">Equipe</button></a>
         </nav>
         <a href="login.html"><button id="button_login">login</button></a>
-        
-       <a href="umidade.html"><img  id="umidade" src="../imgs/umidade.png" alt="Umidade"></a>
-        
-        <br>
-        
-       <a href="temperatura.html"><img  id="temperatura" src="../imgs/temperatura.png" alt="Umidade"></a>
-        
+
+
+
+        <div class="div_equipe">
+            <section id="div_itallo">
+                <a href="https://www.google.com/"> <img src="../imgs/temperatura.png" alt="Imagem do produto 'Sensor de temperatura"> </a>
+        </div>
+
+        <div class="div_equipe">
+            <section id="div_itallo">
+                <a href="https://www.google.com/"><img src="../imgs/simulador_icon.png" alt="Imagem do produto 'Simulador financeiro"></a>
+        </div>
+
+        <div class="div_equipe">
+            <section id="div_itallo">
+                <a href="https://www.google.com/"><img src="../imgs/umidade.png" alt="Imagem do produto 'Sensor de temperatura"></a>
+        </div>
+
+
+
     </section>
-    
+    </div>
+
+    </section>
+
+
 </body>
+
 </html>
 
 <script>
+    //Onload
+    function aoCarregar() {
+        document.body.style.opacity = 1;
+    }
 
+<<<<<<< HEAD
 //Onload
 function aoCarregar(){
     document.body.style.opacity = 1;
 }
+=======
+    function focoLocalizacao() {
+        document.querySelector('.fundo_Logo').style = 'background-color: rgb(0, 0, 0);';
+        document.querySelector('.fundo_Logo').style = 'opacity: 1;';
+
+        //    document.querySelector('.txtLocalizacao').style = 'opacity: 0.8;';
+        //    document.querySelector('.sobreEmpresaLocalizacao').style = 'opacity: 0.8;';
+    }
+
+    function desfocoLocalizacao() {
+        document.querySelector('.fundo_Logo').style = 'background-color: rgba(0, 0, 0, 0.820);'
+        document.querySelector('.fundo_Logo').style = 'opacity: 0.8;'
+    }
+
+
+    // Misão, visão e valores
+
+    function focoMissao() { // MISSÃO
+        document.querySelector('.fundo_Logo').style = 'background-color: rgb(0, 0, 0);';
+        document.querySelector('.fundo_Logo').style = 'opacity: 1;';
+
+        document.querySelector('.sobreEmpresaMissao').innerHTML = '<br>Missão';
+        document.querySelector('.sobreEmpresaMissao').innerHTML +=
+            '<br><div class="conteudoBubble">Levar empresas do mundo todo e seus colaboradores a terem a melhor experiência de computação, através dos nossos softwares e produtos.</div>'
+
+    }
+
+    function desfocoMissao() {
+        document.querySelector('.fundo_Logo').style = 'background-color: rgba(0, 0, 0, 0.820);'
+        document.querySelector('.fundo_Logo').style = 'opacity: 0.8;'
+
+        document.querySelector('.sobreEmpresaMissao').innerHTML = '<br><div style="margin-top: 10%;">Missão</div>';
+    }
+
+    function focoVisao() { // VISÃO
+        document.querySelector('.fundo_Logo').style = 'background-color: rgb(0, 0, 0);';
+        document.querySelector('.fundo_Logo').style = 'opacity: 1;';
+
+        document.querySelector('.sobreEmpresaVisao').innerHTML = '<br>Visão';
+        document.querySelector('.sobreEmpresaVisao').innerHTML +=
+            '<br><div class="conteudoBubble">Desenvolver softwares de alta qualidade e de fácil uso, com tecnologias de ponta para empresas que visam performance em suas atividades.</div>'
+
+    }
+
+    function desfocoVisao() {
+        document.querySelector('.fundo_Logo').style = 'background-color: rgba(0, 0, 0, 0.820);'
+        document.querySelector('.fundo_Logo').style = 'opacity: 0.8;'
+
+        document.querySelector('.sobreEmpresaVisao').innerHTML = '<br><div style="margin-top: 10%;">Visão</div>';
+    }
+
+    function focoValores() { // VALORES
+        document.querySelector('.fundo_Logo').style = 'background-color: rgb(0, 0, 0);';
+        document.querySelector('.fundo_Logo').style = 'opacity: 1;';
+
+        document.querySelector('.sobreEmpresaValores').innerHTML = '<br>Valores';
+        document.querySelector('.sobreEmpresaValores').innerHTML +=
+            '<br><div class="conteudoBubble" style="text-align: center;">Paixão por tecnologia<br>Comunicação<br>Inovação<br>Ética</div>'
+
+    }
+
+    function desfocoValores() {
+        document.querySelector('.fundo_Logo').style = 'background-color: rgba(0, 0, 0, 0.820);'
+        document.querySelector('.fundo_Logo').style = 'opacity: 0.8;'
+
+        document.querySelector('.sobreEmpresaValores').innerHTML = '<br><div style="margin-top: 10%;">Valores</div>';
+    }
+>>>>>>> f4a03e79f203e7d2962d0befc5cc628c4c9ff0b0
 </script>
