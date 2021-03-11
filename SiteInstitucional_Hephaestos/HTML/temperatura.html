@@ -9,27 +9,52 @@
 	<script src="http://www.chartjs.org/samples/latest/utils.js"></script>
 	
 	<style>
-			*{
-			margin: 0;
-			padding: 0;
-		}
 		canvas {
 			-moz-user-select: none;
 			-webkit-user-select: none;
 			-ms-user-select: none;
-		}
+		}	
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+body{
+    background-color: rgba(204, 204, 204, 0.671);
 
-		body{
-			height: 100%;
-			width: 100%;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topo{
+    height: 105px;
+    width: 100%;
+
+    background-color: black;
+    text-align: center;
+}
+
+.logoHephaestos{
+    height: 80%;
+    width: 90px;
+
+    padding-top: 8px;
+}
 	</style>
 </head>
 
+
 <body>
+
+	<div class="topo">
+        <a href="index.html"><img src="../imgs/logoBrancoEmpresa.png" alt="" class="logoHephaestos"></a>
+    </div>
+	<br>
+	<br>
+	
+
 	<section>
 		<h2 style="text-align: center;">Temperatura Atual: <label id='average'>0.00</label></h2>
 		<h2 style="text-align: center;">Média de Temperatura por Hora: <label id='averageHour'>0.00</label></h2>
