@@ -26,19 +26,22 @@
 
         <img id="imgLogo" src="../imgs/logoBrancoEmpresa.png" alt="Logo Empresa">
         
-        <div class="sobreEmpresaMissao" onmouseover="focoMissao()" onmouseout="desfocoMissao()">
-            <br>
-            <div style="margin-top: 10%;">Missão</div>
+        <div class="sobreEmpresaMissao">
+            <div style="margin-top: 2%;">Missão<br>
+                <p style="font-size: 15px; text-align: justify; margin-left: 5px;">Levar empresas do mundo todo e seus<br> colaboradores a terem a melhor<br> experiência de computação, através dos <br>nossos softwares e produtos.</p>
+            </div>
         </div>
 
-        <div class="sobreEmpresaVisao" onmouseover="focoVisao()" onmouseout="desfocoVisao()">
-            <br>
-            <div style="margin-top: 10%;">Visão</div>
+        <div class="sobreEmpresaVisao">
+            <div style="margin-top: 2%;">Visão<br>
+                <p style="font-size: 15px; text-align: justify; margin-left: 5px;">Desenvolver softwares de alta qualidade <br>e de fácil uso, com tecnologias de ponta <br>para empresas que visam performance<br> em suas atividades.</p>
+            </div>
         </div>
 
-        <div class="sobreEmpresaValores" onmouseover="focoValores()" onmouseout="desfocoValores()">
-            <br>
-            <div style="margin-top: 10%;">Valores</div>
+        <div class="sobreEmpresaValores">
+            <div style="margin-top: 2%;">Valores<br>
+                <span style="font-size: 15px; text-align: justify;">Paixão por tecnologia<br>Comunicação<br>Inovação<br>Ética</span>
+            </div>
         </div>
 
     </section>
@@ -64,55 +67,5 @@ function desfocoLocalizacao(){
     document.querySelector('.fundo_Logo').style = 'background-color: rgba(0, 0, 0, 0.820);'
     document.querySelector('.fundo_Logo').style = 'opacity: 0.8;'
 }
-
-
-// Misão, visão e valores
-
-function focoMissao(){ // MISSÃO
-    document.querySelector('.fundo_Logo').style = 'background-color: rgb(0, 0, 0);';
-    document.querySelector('.fundo_Logo').style = 'opacity: 1;';
-
-    document.querySelector('.sobreEmpresaMissao').innerHTML = '<br>Missão';
-    document.querySelector('.sobreEmpresaMissao').innerHTML += '<br><div class="conteudoBubble">Levar empresas do mundo todo e seus colaboradores a terem a melhor experiência de computação, através dos nossos softwares e produtos.</div>'
-
-}
-function desfocoMissao(){
-    document.querySelector('.fundo_Logo').style = 'background-color: rgba(0, 0, 0, 0.820);'
-    document.querySelector('.fundo_Logo').style = 'opacity: 0.8;'
-
-    document.querySelector('.sobreEmpresaMissao').innerHTML = '<br><div style="margin-top: 10%;">Missão</div>';
-}
-
-function focoVisao(){ // VISÃO
-    document.querySelector('.fundo_Logo').style = 'background-color: rgb(0, 0, 0);';
-    document.querySelector('.fundo_Logo').style = 'opacity: 1;';
-
-    document.querySelector('.sobreEmpresaVisao').innerHTML = '<br>Visão';
-    document.querySelector('.sobreEmpresaVisao').innerHTML += '<br><div class="conteudoBubble">Desenvolver softwares de alta qualidade e de fácil uso, com tecnologias de ponta para empresas que visam performance em suas atividades.</div>'
-
-}
-function desfocoVisao(){
-    document.querySelector('.fundo_Logo').style = 'background-color: rgba(0, 0, 0, 0.820);'
-    document.querySelector('.fundo_Logo').style = 'opacity: 0.8;'
-
-    document.querySelector('.sobreEmpresaVisao').innerHTML = '<br><div style="margin-top: 10%;">Visão</div>';
-}
-
-function focoValores(){ // VALORES
-    document.querySelector('.fundo_Logo').style = 'background-color: rgb(0, 0, 0);';
-    document.querySelector('.fundo_Logo').style = 'opacity: 1;';
-
-    document.querySelector('.sobreEmpresaValores').innerHTML = '<br>Valores';
-    document.querySelector('.sobreEmpresaValores').innerHTML += '<br><div class="conteudoBubble" style="text-align: center;">Paixão por tecnologia<br>Comunicação<br>Inovação<br>Ética</div>'
-
-}
-function desfocoValores(){
-    document.querySelector('.fundo_Logo').style = 'background-color: rgba(0, 0, 0, 0.820);'
-    document.querySelector('.fundo_Logo').style = 'opacity: 0.8;'
-
-    document.querySelector('.sobreEmpresaValores').innerHTML = '<br><div style="margin-top: 10%;">Valores</div>';
-}
-
-
 
 </script>
