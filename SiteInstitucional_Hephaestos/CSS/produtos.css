@@ -80,8 +80,6 @@ nav {
     margin-top: 220px;
     margin-left: 25px;
     
-    
-    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -255,4 +253,14 @@ nav {
     z-index: 10;
     border-radius: 10px;
     transition: 0.5s;
+}
+
+#imgLogo{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+
+    top: 35px;
+    right: 10px;
+    left: 40px;
 }

@@ -21,15 +21,19 @@ body {
     text-align: center;
 }
 
-#imgLogo {
-    height: 370px;
-    width: 370px;
-    margin-top: 250px;
+#imgLogo{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+
+    top: 35px;
+    right: 10px;
+    left: 40px;
 }
 
 nav {
     position: absolute;
-    margin-top: 40px;
+    margin-top: 59px;
     height: 100px;
     width: 100%;
     text-align: center;
