@@ -12,8 +12,6 @@ body {
     background-image: url('../imgs/background_institucional.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
-    opacity: 0;
     transition: 2s;
 }
 
@@ -75,13 +73,13 @@ nav {
 
 .div_equipe{
     display: inline-block;
-    border: 12px solid;
     color: white;
     width: 200px;
     height: 200px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 170px;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 25px;
+    
     
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -90,8 +88,7 @@ nav {
 .fundo_Logo {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.820);
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.808);
     text-align: center;
     transition: 0.5s;
 }
