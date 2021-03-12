@@ -42,17 +42,8 @@ create table tbEstufa(
 	,id_empresa int
 );
 
-<<<<<<< HEAD
-create table tbSensor(
-	id_sensor int primary key auto_increment
-	,id_estufa int
-	,id_temperatura_sensor int
-	,id_umidade int
-);
 
 
-=======
->>>>>>> e5ae4ab1ef5a028e8b7c9e197399fc066805c0fa
 create table tbTemperatura(
 	id_temperatura int primary key auto_increment
 	,valor_temperatura float
@@ -72,15 +63,13 @@ create table tbUmidade(
 	,momento_umidade datetime default current_timestamp
 );
 
-<<<<<<< HEAD
-=======
+
 create table tbSensor(
 	id_sensor int primary key auto_increment
 	,id_estufa int
 	,id_temperatura int
 	,id_umidade int
 );
->>>>>>> e5ae4ab1ef5a028e8b7c9e197399fc066805c0fa
 
 
 insert into tbUsuario values
