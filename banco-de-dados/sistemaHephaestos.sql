@@ -45,21 +45,31 @@ create table tbEstufa(
 create table tbSensor(
 	id_sensor int primary key auto_increment
 	,id_estufa int
-	,id_temperatura int
+	,id_temperatura_sensor int
 	,id_umidade int
 );
+
 
 create table tbTemperatura(
 	id_temperatura int primary key auto_increment
 	,valor_temperatura float
-	,momento_temperatura datetime
+	,momento_temperatura datetime default current_timestamp
 );
+
+insert into tbTemperatura values 
+(null,24.2,null);
+
+select*from tbTemperatura;
+
+
 
 create table tbUmidade(
 	id_umidade int primary key auto_increment
 	,valor_umidade float
-	,momento_umidade datetime
+	,momento_umidade datetime default current_timestamp
 );
+
+
 
 insert into tbUsuario values
 (null, 'Mateus Ferreira', 'mateus@bandtec.com', 'urubu100','2001/05/31', '000.000.000-00', '00000-000', 'SP', 'Santo André',
@@ -82,6 +92,90 @@ insert into tbEmpresaUsuario values
 (null, '2', '3', 'wesley@santaluzia.com');
 
 select * from tbEmpresaUsuario;
+
+/*
+tbempresa usuario
+tbempresa
+tbusuario
+*/
+select*from tbusuario;
+select*from tbusuario where id_usuario=1;
+
+select*from tbusuario where  nome_usuario like '%e%';
+
+select*from tbusuario where data_nascimento_usuario = '2001-05-31';
+
+select*from tbusuario order by data_nascimento_usuario desc;
+
+
+select*from tbusuario where cidade_usuario = 'Santo André';
+
+select*from tbTemperatura;
+
+select*from tbUmidade;
+
+insert into tbUmidade values 
+(null,99,null);
+
+insert into tbUmidade (valor_umidade) values 
+			(95);
+            
+
+insert into tbSensor (id_sensor,id_estufa,id_temperatura_sensor,id_umidade) values
+					  (1,1,1,1);
+                      
+insert into tbSensor (id_sensor,id_estufa,id_temperatura_sensor,id_umidade) values
+					 (2,2,2,2);
+                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select*from tbsensor where id_sensor=1;
+
+select*from tbTemperatura,tbSensor where id_temperatura=id_temperatura_sensor;
+
+
+
+
+select*from tbUsuario;
+
+update tbUsuario set nome_usuario = 'Mateus Araujo' where id_usuario=1;
+
+delete from tbUsuario where id_usuario=2;
+
+insert into tbUsuario (nome_usuario,email_institucional_usuario,senha_usuario,data_nascimento_usuario,cpf_usuario,CEP_usuario) values
+	('Antonio Monteiro','antoniomonteiro@gmail.com','antonio123','1997/08/01','19856458945','08452020')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
