@@ -89,7 +89,7 @@ CREATE TABLE sensor (
     CHECK (statusSensor = 'ativo' or statusSensor = 'inativo')
 ) auto_increment = 10000;
 
-/*INSERT INTO sensor (idSensor, nomeSensor, localSensor, 
+INSERT INTO sensor (idSensor, nomeSensor, localSensor, 
 								temperatura, statusSensor) values 
 	(null,'D','Estufa Alfa',21.4, 'ativo'),
     (null,'B','Estufa Alfa',12.5, 'ativo'),
@@ -105,7 +105,7 @@ select * from tbsensor;
 
 update tbSensor set id_temperatura = 29 WHERE id_sensor = 1;
 update tbSensor set id_umidade = 95 WHERE id_sensor = 1;
-*/
+
 
 
 /*create table tbEmpresaUsuario(
